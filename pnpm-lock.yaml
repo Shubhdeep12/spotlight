@@ -68,8 +68,8 @@ importers:
         specifier: ^4.0.4
         version: 4.0.4(astro@3.5.5)(svelte@5.0.0-next.4)(typescript@5.2.2)(vite@4.5.0)
       '@sentry/astro':
-        specifier: ^7.83.0
-        version: 7.83.0(astro@3.5.5)
+        specifier: ^7.84.0
+        version: 7.84.0(astro@3.5.5)
       '@spotlightjs/astro':
         specifier: workspace:*
         version: link:../../packages/astro
@@ -2567,25 +2567,6 @@ packages:
       '@sentry/utils': 7.84.0
     dev: false
 
-  /@sentry/astro@7.83.0(astro@3.5.5):
-    resolution:
-      { integrity: sha512-PWGFPUYbznEAnAA6ZTgAQs7DAvrqSaoAM/uDzgWiL3e3TVUezDGGvnDf2BmM9p5LpRyDLur4becn2jhtapDLoQ== }
-    engines: { node: '>=18.14.1' }
-    peerDependencies:
-      astro: '>=3.x'
-    dependencies:
-      '@sentry/browser': 7.83.0
-      '@sentry/core': 7.83.0
-      '@sentry/node': 7.83.0
-      '@sentry/types': 7.83.0
-      '@sentry/utils': 7.83.0
-      '@sentry/vite-plugin': 2.10.1
-      astro: 3.5.5(typescript@5.2.2)
-    transitivePeerDependencies:
-      - encoding
-      - supports-color
-    dev: false
-
   /@sentry/astro@7.83.0(astro@3.6.0):
     resolution:
       { integrity: sha512-PWGFPUYbznEAnAA6ZTgAQs7DAvrqSaoAM/uDzgWiL3e3TVUezDGGvnDf2BmM9p5LpRyDLur4becn2jhtapDLoQ== }
@@ -2600,6 +2581,25 @@ packages:
       '@sentry/utils': 7.83.0
       '@sentry/vite-plugin': 2.10.1
       astro: 3.6.0(typescript@5.3.2)
+    transitivePeerDependencies:
+      - encoding
+      - supports-color
+    dev: false
+
+  /@sentry/astro@7.84.0(astro@3.5.5):
+    resolution:
+      { integrity: sha512-H/uJHWC4wh082Pf37zK+qTIQnFhxJm4Z4gpFX3vpGLZBMSpyP4+GQ7xyiCxgKWI5vqW6duQ1jAP0nx0P7CZt0g== }
+    engines: { node: '>=18.14.1' }
+    peerDependencies:
+      astro: '>=3.x || >=4.0.0-beta'
+    dependencies:
+      '@sentry/browser': 7.84.0
+      '@sentry/core': 7.84.0
+      '@sentry/node': 7.84.0
+      '@sentry/types': 7.84.0
+      '@sentry/utils': 7.84.0
+      '@sentry/vite-plugin': 2.10.1
+      astro: 3.5.5(typescript@5.2.2)
     transitivePeerDependencies:
       - encoding
       - supports-color
